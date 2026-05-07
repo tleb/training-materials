@@ -103,7 +103,7 @@ configure properly the i.MX audmux.
 
 Let's say we have an ADAU1372 codec connected to an i.Mx6UL SAI. First, enable the SAI and the codec:
 
-```c
+```dts
 &sai2 {
         pinctrl-names = "default";
         pinctrl-0 = <&pinctrl_sai2>;
@@ -133,7 +133,7 @@ Let's say we have an ADAU1372 codec connected to an i.Mx6UL SAI. First, enable t
 
 Now, describe the sound card:
 
-```c
+```dts
         sound {
                 compatible = "simple-audio-card";
                 simple-audio-card,name = "imx6ul-adau1372";
@@ -161,7 +161,7 @@ FSCLK.
 
 The ADAU1372 has actually 4 channels and can do TDM:
 
-```c
+```dts
         sound {
                 compatible = "simple-audio-card";
                 simple-audio-card,name = "imx6ul-adau1372";
@@ -191,7 +191,7 @@ The ADAU1372 has actually 4 channels and can do TDM:
 However, the ADAU1372 has an hardware issue and doesn't generate the proper BCLK when doing TDM4 with
 a 32kHz sample rate. The SAI has to be master:
 
-```c
+```dts
         sound {
                 compatible = "simple-audio-card";
                 simple-audio-card,name = "imx6ul-adau1372";
@@ -254,7 +254,7 @@ BCLK!
 
 It is possible to reparent clocks using `assigned-clock-parents` and set the clock rate using
 `assigned-clock-rates`.
-```c
+```dts
 &sai2 {
         pinctrl-names = "default";
         pinctrl-0 = <&pinctrl_sai2>;
@@ -278,7 +278,7 @@ able to divide by 3 to obtain the 4.096MHz BCLK.
 There is a possible cost reduction, the SAI is able to output its clock to feed to the codec MCLK
 instead of the crystal:
 
-```c
+```dts
 &sai2 {
         pinctrl-names = "default";
         pinctrl-0 = <&pinctrl_sai2>;
@@ -637,7 +637,7 @@ static int atmel_asoc_wm8904_dt_init(struct platform_device *pdev)
 #v(-0.3em)
 #[
 #show raw.where(lang: "c", block: true): set text(13pt)
-```c
+```dts
 Example:
 sound {
         compatible = "atmel,asoc-wm8904";

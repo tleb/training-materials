@@ -70,7 +70,7 @@ The devices that require certains pins to be muxed will use the
 
 #table(columns: (50%, 50%), stroke: none, gutter: 15pt, [
 
-```perl
+```dts
 i2c0: i2c@11000 {
         ...
         pinctrl-0 = <&pmx_twsi0>;
@@ -83,7 +83,7 @@ Most common case (#kfile("arch/arm/boot/dts/marvell/kirkwood.dtsi"))
 ],[
 
 #text(size: 17pt)[
-```perl
+```dts
 i2c0: i2c@f8014000 {
        ...
        pinctrl-names = "default", "gpio";
@@ -136,7 +136,7 @@ Case with multiple pin states
 ],[
 
 #text(size: 12pt)[
-```perl
+```dts
 /* Excerpt from am335x-bone-common.dts */
 
 &am33xx_pinmux {

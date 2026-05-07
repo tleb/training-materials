@@ -871,7 +871,7 @@ fat                    86016  1 vfat
 
 #table(columns: (50%, 50%), stroke: none, [
 #[ #set text(size: 18pt)
-```
+```dts
 $ cat foo.dts
 /dts-v1/;
 
@@ -889,7 +889,7 @@ $ cat foo.dts
 
 #table(columns: (50%, 50%), stroke: none, [
 #[ #set text(size: 18pt)
-  ```
+  ```dts
 $ cat foo.dts
 /dts-v1/;
 
@@ -915,7 +915,7 @@ $ ls -l foo.dt*
 
 #table(columns: (50%, 50%), stroke: none, [
 #[ #set text(size: 18pt)
-```
+```dts
 $ cat foo.dts
 /dts-v1/;
 
@@ -937,7 +937,7 @@ $ ls -l foo.dt*
 ]
 ],[
   
-```
+```dts
 $ dtc -I dtb -O dts foo.dtb
 /dts-v1/;
 
@@ -1027,7 +1027,7 @@ $ dtc -I dtb -O dts foo.dtb
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
 #[ #set text(size: 18pt)
-```perl
+```dts
 / {
   #address-cells = <1>;
   #size-cells = <1>;
@@ -1057,7 +1057,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 #[ #set text(size: 12pt)
 
-```perl
+```dts
 / {
   cpus {
     #address-cells = <1>;
@@ -1096,7 +1096,7 @@ $ dtc -I dtb -O dts foo.dtb
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
 #[ #set text(size: 18pt)
-```perl
+```dts
 / {
   cpus { ... };
   memory@0 {
@@ -1126,7 +1126,7 @@ $ dtc -I dtb -O dts foo.dtb
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
 #[ #set text(size: 13pt)
-```perl
+```dts
 / {
   cpus { ... };
   memory@0 { ... };
@@ -1162,7 +1162,7 @@ $ dtc -I dtb -O dts foo.dtb
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
 #[ #set text(size: 13pt)
-```perl
+```dts
 / {
   cpus { ... };
   memory@0 { ... };
@@ -1200,7 +1200,7 @@ $ dtc -I dtb -O dts foo.dtb
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
 #[ #set text(size: 13pt)
-```perl
+```dts
 / {
   cpus { ... };
   memory@0 { ... };
@@ -1275,7 +1275,7 @@ soc.dtsi
 ]
 
 #[ #set text(size: 12pt)
-```perl
+```dts
 / {
   soc {
     usart1: serial@5c000000 {
@@ -1291,7 +1291,7 @@ soc.dtsi
 board.dts
 ]
 #[ #set text(size: 12pt)
-```perl
+```dts
 #include "soc.dtsi"
 
 / {
@@ -1315,7 +1315,7 @@ soc.dtsi
 ]
 
 #[ #set text(size: 12pt)
-```perl
+```dts
 / {
   soc {
     usart1: serial@5c000000 {
@@ -1331,7 +1331,7 @@ soc.dtsi
 board.dts
 ]
 #[ #set text(size: 12pt)
-```perl
+```dts
 #include "soc.dtsi"
 
 / {
@@ -1351,7 +1351,7 @@ Is exactly equivalent to:  \
 soc.dtsi
 ]
 #[ #set text(size: 12pt)
-```perl
+```dts
 / {
   soc {
     usart1: serial@5c000000 {
@@ -1368,7 +1368,7 @@ soc.dtsi
 board.dts
 ]
 #[ #set text(size: 12pt)
-```perl
+```dts
 #include "soc.dtsi"
 
 &usart1 {
@@ -1831,7 +1831,7 @@ static struct i2c_driver cs42l51_i2c_driver = {
 ],[
 
 #[ #set text(size: 10pt)
-```perl
+```dts
 intc: interrupt-controller@a0021000 {
    compatible = "arm,cortex-a7-gic";
    #interrupt-cells = <3>;
@@ -1892,7 +1892,7 @@ spi3: spi@4000c000 {
 #kfileversion("arch/arm/boot/dts/st/stm32mp151.dtsi", "6.1")
 ]
 #[ #set text(size: 12pt)
-```perl
+```dts
 pinctrl: pin-controller@50002000 {
         #address-cells = <1>;
         #size-cells = <1>;
@@ -1925,7 +1925,7 @@ pinctrl_z: pin-controller-z@54004000 {
 #kfileversion("arch/arm/boot/dts/st/stm32mp15-pinctrl.dtsi", "6.1")
 ]
 #[ #set text(size: 11.5pt)
-```perl
+```dts
 &pinctrl {
         ...
         i2c1_pins_a: i2c1-0 {
@@ -1967,7 +1967,7 @@ Note that `I2C1_SDA` is also available on pin `PF15` (not shown here).
 ===  Pin-muxing consumer
 
 #[ #set text(size: 15pt)
-```perl
+```dts
 &i2c1 {
         pinctrl-names = "default", "sleep";
         pinctrl-0 = <&i2c1_pins_a>;
@@ -2027,7 +2027,7 @@ Note that `I2C1_SDA` is also available on pin `PF15` (not shown here).
 stm32mp157a-dk1-custom.dts 
   ]
   #[ #set text(size: 12pt)
-```perl
+```dts
 #include "stm32mp157a-dk1.dts"
 
 / {
@@ -2062,7 +2062,7 @@ shell
 stm32mp157a-dk1-custom.dts
   ]
   #[ #set text(size: 1pt)
-```perl
+```dts
 &i2c5 {
         status = "okay";
         clock-frequency = <100000>;

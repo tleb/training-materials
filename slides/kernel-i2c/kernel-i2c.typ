@@ -169,7 +169,7 @@ static void __init em7210_init_machine(void)
 
 #text(size: 16pt)[Definition of the I2C controller]
 
-```perl
+```dts
 i2c0: i2c@01c2ac00 {
         compatible = "allwinner,sun7i-a20-i2c",
                      "allwinner,sun4i-a10-i2c";
@@ -194,7 +194,7 @@ See details in
 
 #text(size: 16pt)[Definition of the I2C device]
 
-```perl
+```dts
 &i2c0 {
         pinctrl-names = "default";
         pinctrl-0 = <&i2c0_pins_a>;

@@ -172,7 +172,7 @@ static int adin1110_setup_notifiers(void)
 
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
-```
+```dts
 &mdio {
   switch0: ethernet-switch@1 {
     compatible = "marvell,mv88e6085";
@@ -204,7 +204,7 @@ static int adin1110_setup_notifiers(void)
 #table(columns: (50%, 50%), stroke: none, gutter: 15pt, [
 
 #text(size: 13pt)[
-```
+```dts
     ...
     ethernet-ports {
       switch0port0: ethernet-port@0 {

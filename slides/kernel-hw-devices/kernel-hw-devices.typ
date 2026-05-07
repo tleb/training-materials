@@ -125,7 +125,7 @@
 #table(columns: (50%, 50%), stroke: none, gutter: 15pt, [
 
 #text(size: 16pt)[  
-```
+```dts
 $ cat foo.dts
 /dts-v1/;
 
@@ -144,7 +144,7 @@ $ cat foo.dts
 
 #table(columns: (50%, 50%), stroke: none, gutter: 15pt, [
 #text(size: 16pt)[  
-```
+```dts
 $ cat foo.dts
 /dts-v1/;
 
@@ -157,7 +157,7 @@ $ cat foo.dts
 };
 ```
 
-```
+```dts
 $ dtc -I dts -O dtb -o foo.dtb foo.dts
 $ ls -l foo.dt*
 -rw-r--r-- 1 thomas thomas 169 ... foo.dtb
@@ -170,7 +170,7 @@ $ ls -l foo.dt*
 
 #table(columns: (50%, 50%), stroke: none, gutter: 15pt, [
 #text(size: 16pt)[  
-  ```
+  ```dts
 $ cat foo.dts
 /dts-v1/;
 
@@ -193,7 +193,7 @@ $ ls -l foo.dt*
 ],[
 
 #text(size: 16pt)[  
-```
+```dts
 $ dtc -I dtb -O dts foo.dtb
 /dts-v1/;
 
@@ -258,7 +258,7 @@ $ dtc -I dtb -O dts foo.dtb
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
 #[ #set text(size: 12pt)
-```perl
+```dts
 / {
   #address-cells = <1>;
   #size-cells = <1>;
@@ -290,7 +290,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 #[ #set text(size: 12pt)
 
-```perl
+```dts
 / {
   cpus {
     #address-cells = <1>;
@@ -326,7 +326,7 @@ $ dtc -I dtb -O dts foo.dtb
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
 #[ #set text(size: 12pt)
-```perl
+```dts
 / {
   cpus { ... };
   memory@0x80000000 { ... };
@@ -367,7 +367,7 @@ $ dtc -I dtb -O dts foo.dtb
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
 #[ #set text(size: 12pt)
-```perl
+```dts
 / {
   cpus { ... };
   memory@0x80000000 { ... };
@@ -407,7 +407,7 @@ $ dtc -I dtb -O dts foo.dtb
 #table(columns: (60%, 40%), stroke: none, gutter: 15pt, [
 
 #[ #set text(size: 12pt)
-```perl
+```dts
 / {
   cpus { ... };
   memory@0x80000000 { ... };
@@ -482,7 +482,7 @@ Doing:
 #v(0.5em)
 #text(size: 14pt)[soc.dtsi]
 #[ #set text(size: 13pt)
-```perl
+```dts
 / {
   ocp {
     uart0: serial@0 {
@@ -499,7 +499,7 @@ Doing:
 #text(size: 14pt)[board.dts]
 
 #[ #set text(size: 13pt)
-```perl
+```dts
 #include "soc.dtsi"
 
 / {
@@ -523,7 +523,7 @@ Doing:
 
 #text(size: 14pt)[soc.dtsi]
 #[ #set text(size: 13pt)
-```perl
+```dts
 / {
   ocp {
     uart0: serial@0 {
@@ -539,7 +539,7 @@ Doing:
 
 #text(size: 14pt)[board.dts]
 #[ #set text(size: 13pt)
-```perl
+```dts
 #include "soc.dtsi"
 
 / {
@@ -561,7 +561,7 @@ Is exactly equivalent to:
 
 #text(size: 14pt)[soc.dtsi]
 #[ #set text(size: 13pt)
-```perl
+```dts
 / {
   ocp {
     uart0: serial@0 {
@@ -577,7 +577,7 @@ Is exactly equivalent to:
 
 #text(size: 14pt)[board.dts]
 #[ #set text(size: 13pt)
-```perl
+```dts
 #include "soc.dtsi"
 
 &uart0 {
@@ -991,7 +991,7 @@ static struct i2c_driver cs42l51_i2c_driver = {
 ],[
 
 #text(size: 12.5pt)[
-```perl
+```dts
 intc: interrupt-controller@a0021000 {
    compatible = "arm,cortex-a7-gic";
    #interrupt-cells = <3>;
@@ -1044,7 +1044,7 @@ spi3: spi@4000c000 {
 
   - Examples: `gpio-names`, `clock-names`, `reset-names`
 
-```perl
+```dts
 uart0@4000c000 {
     dmas = <&edma 26 0>, <&edma 27 0>;
     dma-names = "tx", "rx";
