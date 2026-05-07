@@ -509,6 +509,7 @@
   set par(spacing: 0.5em)
   set par(leading: 0.5em)
   set list(spacing: 0.6em)
+  set raw(syntaxes: "devicetree.sublime-syntax")
   show: touying-slides.with(
     config-page(
       paper: "presentation-" + aspect-ratio,
