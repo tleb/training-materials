@@ -43,7 +43,7 @@ columns: (70%, 30%), stroke: none,
 ],
 [
 
-#align(center, [#image("/common/bootlin-logo.pdf", width: 100%)])
+#align(center, [#image("/common/bootlin-logo.svg", width: 100%)])
 
 ]
 )

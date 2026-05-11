@@ -230,7 +230,7 @@ WantedBy=multi-user.target
 
 ],[
 
-#align(center, [#image("xorg.pdf", width: 100%)])
+#align(center, [#image("xorg.svg", width: 100%)])
 
 ])
 
@@ -255,7 +255,7 @@ WantedBy=multi-user.target
 
 ],[
 
-#align(center, [#image("wayland.png", width: 100%)]) 
+#align(center, [#image("wayland.png", width: 100%)])
 
 ])
 
@@ -337,7 +337,7 @@ WantedBy=multi-user.target
 
 ],[
 
-#align(center, [#image("qt-logo.pdf", width: 100%)]) 
+#align(center, [#image("qt-logo.svg", width: 100%)])
 ])
 
 ===  Gtk
@@ -393,8 +393,8 @@ Read our blog post:
 
 ],[
 
-#align(center, [#image("Google-flutter-logo.pdf", width: 90%)])
-#align(center, [#image("flutter-app.png", width: 70%)]) 
+#align(center, [#image("Google-flutter-logo.svg", width: 90%)])
+#align(center, [#image("flutter-app.png", width: 70%)])
 ])
 
 ===  SDL

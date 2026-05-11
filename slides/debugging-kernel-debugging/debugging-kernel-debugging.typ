@@ -37,7 +37,7 @@ rzn1_a5psw.c:81:13: warning: context imbalance in 'a5psw_reg_rmw' - wrong count
 ```]
 #v(1em)
 
-#align(center, [#image("sparse.pdf", height: 12%)])
+#align(center, [#image("sparse.svg", height: 12%)])
 
 ===  Good practices in kernel development (1/2)
 

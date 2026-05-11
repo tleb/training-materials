@@ -509,4 +509,4 @@ Options:
 
 ===  dapm-graph
 
-#align(center, [#image("dapm-graph.pdf", height: 90%)])
+#align(center, [#image("dapm-graph.svg", height: 90%)])

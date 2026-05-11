@@ -96,7 +96,7 @@ Linux kernel to userspace ABI is stable
 ],[
 #v(-0.7em)
 #[ #set par(leading: 0.3em)
-#image("linux-user-api.pdf", height: 95%)
+#image("linux-user-api.svg", height: 95%)
 #text(size: 11pt)[Modified Image from Wikipedia:] \
 #text(size: 10pt)[#link("https://bit.ly/2U2rdGB")]
 ]
@@ -130,7 +130,7 @@ Linux internal ABI is not stable
 
 #v(-0.8em)
 #[ #set par(leading: 0.3em)
-#image("linux-internal-api.pdf", height: 95%)
+#image("linux-internal-api.svg", height: 95%)
 #text(size: 11pt)[Modified Image from Wikipedia:] \
 #text(size: 10pt)[#link("https://bit.ly/2U2rdGB")]
 ]

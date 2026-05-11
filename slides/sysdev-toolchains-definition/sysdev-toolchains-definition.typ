@@ -203,7 +203,7 @@ your project.
 
 ],[
 
-#align(center, [#image("Linux_kernel_System_Call_Interface_and_uClibc.pdf", width: 100%)])
+#align(center, [#image("Linux_kernel_System_Call_Interface_and_uClibc.svg", width: 100%)])
 #text(size: 14pt)[
 Source: Wikipedia (#link("https://bit.ly/2zrGve2"))] 
 ])
@@ -230,7 +230,7 @@ Source: Wikipedia (#link("https://bit.ly/2zrGve2"))]
 
 ],[
   
-#align(center, [#image("heckert_gnu_white.pdf", width: 100%)])
+#align(center, [#image("heckert_gnu_white.svg", width: 100%)])
 #text(size: 14pt)[
 #link("https://en.wikipedia.org/wiki/File:Heckert_GNU_white.svg")[Image source]]
 
