@@ -8,7 +8,7 @@
 
 ===  Kernel and Device Drivers
 
-#table(columns: (70%, 35%), stroke: none, gutter: 15pt, [
+#table(columns: (70%, 35%), stroke: none, [
  
 In Linux, a driver is always interfacing with:
 

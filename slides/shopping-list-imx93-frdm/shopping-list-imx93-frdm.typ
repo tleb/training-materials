@@ -22,7 +22,6 @@
 
 #table(columns: (80%, 20%), stroke: none, gutter: 20pt,
 [
-  #text(size: 23pt)[
   - NXP i.MX93 11x11 FRDM board
     
 
@@ -50,7 +49,7 @@
 
   #if imx93-frdm-audio [
   - A standard USB audio headset
-  ]]
+  ]
 ],
 [
   #align(center)[
