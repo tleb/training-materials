@@ -293,7 +293,7 @@ Image credits (Beagleboard.org):
   development platforms are more and more commonly freely available,
   making it easier to develop custom platforms.
 ],[
-#align(center, [#image("../shopping-list-beaglebone/beagleboneblack.png", height: 25%)])
+#align(center, [#image("../shopping-list-beaglebone/beagleboneblack.jpg", height: 25%)])
 #[ #set text(size: 15pt)
 Beaglebone Black Wireless board
 ] 
