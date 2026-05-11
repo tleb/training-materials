@@ -39,12 +39,12 @@ menuconfig: $(BUILD_DIR)/buildroot-config/mconf outputmakefile
 #table(columns: (40%, 60%), stroke: none, [
 #align(center, [#image("menuconfig-toplevel.png", width: 100%)])
 ],[
-#align(center, [#image("config-hierarchy.pdf", width: 100%)])
+#align(center, [#image("config-hierarchy.svg", width: 100%)])
 ])
 
 === When you run `make`...
 
-#align(center, [#image("global-build-logic.pdf", width: 100%)])
+#align(center, [#image("global-build-logic.svg", width: 100%)])
 
 === Where is `$(PACKAGES)` filled?
 
@@ -419,7 +419,7 @@ $$($(2)_TARGET_SOURCE): | dependencies
 
 === `inner-generic-package`: sequencing diagram
 
-#align(center, [#image("package-build-sequencing.pdf", height: 90%)])
+#align(center, [#image("package-build-sequencing.svg", height: 90%)])
 
 === Preparation work: prepare, dependencies
 
@@ -840,4 +840,4 @@ $(eval $(rootfs))
 
 === Final example
 
-#align(center, [#image("final-example.pdf", height: 90%)])
+#align(center, [#image("final-example.svg", height: 90%)])

@@ -140,14 +140,14 @@ Not recommended for embedded systems today!
 
 ],[
 
-#align(center, [#image("journal.pdf", width: 80%)])
+#align(center, [#image("journal.svg", width: 80%)])
 
 ])
 
 ===  Filesystem recovery after crashes
 
 #table(columns: (40%, 60%), stroke: none, [
-#align(center, [#image("journal-recovery.pdf", width: 100%)])
+#align(center, [#image("journal-recovery.svg", width: 100%)])
 
 ],[
 
@@ -475,7 +475,7 @@ Good idea to split your block storage into:
 
 ],[
   
-#align(center, [#image("mixing-filesystems.pdf", height: 80%)])
+#align(center, [#image("mixing-filesystems.svg", height: 80%)])
 
 ])
 

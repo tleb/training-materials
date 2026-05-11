@@ -28,7 +28,7 @@
 
 ],[
 
-#align(center, [#image("modules-to-access-rootfs.pdf", width: 100%)])
+#align(center, [#image("modules-to-access-rootfs.svg", width: 100%)])
 
 ])
 

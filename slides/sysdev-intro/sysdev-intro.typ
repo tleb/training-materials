@@ -331,7 +331,7 @@ Image credits (Olimex): \
 
 ===  Host and target
 
-#align(center, [#image("host-and-target.pdf", height: 90%)])
+#align(center, [#image("host-and-target.svg", height: 90%)])
 
 ===  Software components
 

@@ -188,11 +188,11 @@ BUILD_BUG_ON(sizeof(ctx->__reserved) != sizeof(reserved));
 
 ===  Oops example (1/2)
 
-#align(center, [#image("oops1.pdf", height: 90%)])
+#align(center, [#image("oops1.svg", height: 90%)])
 
 ===  Oops example (2/2)
 
-#align(center, [#image("oops2.pdf", height: 90%)])
+#align(center, [#image("oops2.svg", height: 90%)])
 
 ===  Kernel oops debugging: `addr2line`
 
@@ -549,7 +549,7 @@ Use <ctrl>C to terminate program
 
 ], [
 
-#align(center, [#image("kdmx.pdf", width: 100%)])
+#align(center, [#image("kdmx.svg", width: 100%)])
 
 ])
 

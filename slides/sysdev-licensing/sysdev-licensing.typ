@@ -293,7 +293,7 @@ Make source code available
 
 ===  Licensing: examples
 
-#align(center, [#image("license-cases.pdf", width: 95%)])
+#align(center, [#image("license-cases.svg", width: 95%)])
 
 == Best practices
 <best-practices>

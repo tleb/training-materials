@@ -93,7 +93,7 @@ TOS_FW_CONFIG: offset=0x10C716, size=0x3CF6, cmdline="--tos-fw-config"
 
 #table(columns: (50%, 50%), stroke: none, [
 
-#align(center, [#image("stm32mp1-tfa.pdf", width: 90%)])
+#align(center, [#image("stm32mp1-tfa.svg", width: 90%)])
 
 #[ #set text(size: 18pt)
 
@@ -103,7 +103,7 @@ TOS_FW_CONFIG: offset=0x10C716, size=0x3CF6, cmdline="--tos-fw-config"
 
 ],[
 
-#align(center, [#image("/common/sequence-stm32mp1.pdf", width: 90%)])
+#align(center, [#image("/common/sequence-stm32mp1.svg", width: 90%)])
 
 ])
 
@@ -111,7 +111,7 @@ TOS_FW_CONFIG: offset=0x10C716, size=0x3CF6, cmdline="--tos-fw-config"
 
 #table(columns: (50%, 50%), stroke: none, [
 
-#align(center, [#image("am62x-tfa.pdf", width: 90%)])
+#align(center, [#image("am62x-tfa.svg", width: 90%)])
 
 #[ #set text(size: 18pt)
 
@@ -121,6 +121,6 @@ TOS_FW_CONFIG: offset=0x10C716, size=0x3CF6, cmdline="--tos-fw-config"
 
 ],[
 
-#align(center, [#image("../sysdev-bootloaders-sequence/sequence-am62x.pdf", width: 90%)])
+#align(center, [#image("../sysdev-bootloaders-sequence/sequence-am62x.svg", width: 90%)])
 
 ])

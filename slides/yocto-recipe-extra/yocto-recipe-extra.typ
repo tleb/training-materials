@@ -65,7 +65,7 @@
 
 #v(0.5em)
 
-#align(center, [#image("per-recipe-sysroot.pdf", width: 100%)])
+#align(center, [#image("per-recipe-sysroot.svg", width: 100%)])
 
 ===  Per-recipe sysroot
 
@@ -359,7 +359,7 @@ PACKAGECONFIG[openvpn] = "--enable-openvpn,  \
 
 ===  Package splitting
 
-#align(center, [#image("splitting-packages.pdf", width: 95%)])
+#align(center, [#image("splitting-packages.svg", width: 95%)])
 
 ===  Package splitting
 

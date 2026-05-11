@@ -259,7 +259,7 @@ $
 
 #table(columns: (55%, 45%), stroke:none, gutter:15pt, [
 
-#align(center, [#image("yocto-operators-order.pdf", width: 100%)])
+#align(center, [#image("yocto-operators-order.svg", width: 100%)])
 
 ],[
 

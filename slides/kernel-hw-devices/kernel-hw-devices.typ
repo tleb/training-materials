@@ -116,7 +116,7 @@
 
 ],[
 
-#align(center, [#image("dts-to-dtb.pdf", height: 70%)])
+#align(center, [#image("dts-to-dtb.svg", height: 70%)])
 
 ])
 
@@ -249,7 +249,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("dt-basic-syntax.pdf", height: 80%)])
+#align(center, [#image("dt-basic-syntax.svg", height: 80%)])
 
 ])
 
@@ -280,7 +280,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -319,7 +319,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -360,7 +360,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -400,7 +400,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -440,7 +440,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 ===  Device Tree inheritance
@@ -472,7 +472,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ===  Device Tree inheritance example
 
-#align(center, [#image("dt-inheritance.pdf", width: 100%)])
+#align(center, [#image("dt-inheritance.svg", width: 100%)])
 
 ===  Inheritance and labels
 
@@ -591,7 +591,7 @@ Is exactly equivalent to:
 
 ===  DT inheritance in Bone Black support
 
-#align(center, [#image("dt-inheritance-bbb.pdf", height: 90%)])
+#align(center, [#image("dt-inheritance-bbb.svg", height: 90%)])
 
 ===  Device Tree design principles
 
@@ -711,7 +711,7 @@ Device tree properties can:
   _bound_ to that driver.
 
 ],[
-#align(center, [#image("dt-to-devices.pdf", width: 100%)])
+#align(center, [#image("dt-to-devices.svg", width: 100%)])
 
 ])
 

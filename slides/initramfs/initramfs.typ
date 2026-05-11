@@ -71,4 +71,4 @@ See the kernel documentation for details:
 *WARNING*: only binaries from GPLv2 compatible code are allowed
 to be included in the kernel binary using this technique. Otherwise, use
 an external initramfs. ],[
-#align(center, [#image("initramfs.pdf", width: 90%)]) ])
+#align(center, [#image("initramfs.svg", width: 90%)]) ])

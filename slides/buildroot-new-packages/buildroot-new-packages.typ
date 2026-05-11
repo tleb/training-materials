@@ -348,7 +348,7 @@ endif
 
 ===  Package infrastructures
 
-#align(center, [#image("package-infrastructures.pdf", height: 90%)])
+#align(center, [#image("package-infrastructures.svg", height: 90%)])
 
 ===  `generic-package` infrastructure
 
@@ -365,7 +365,7 @@ endif
 
 ===  `generic-package`: steps
 
-#align(center, [#image("generic-package.pdf", height: 90%)])
+#align(center, [#image("generic-package.svg", height: 90%)])
 
 ===  Other package infrastructures
 
@@ -1056,7 +1056,7 @@ $(eval $(generic-package))
 
 ===  The `autotools-package`: steps
 
-#align(center, [#image("autotools-package.pdf", height: 90%)])
+#align(center, [#image("autotools-package.svg", height: 90%)])
 
 ===  The `autotools-package` infrastructure: variables
 

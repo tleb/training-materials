@@ -26,12 +26,12 @@ From the bottom to the top:
   _kernel/user-space interface_ either directly or through a
   library.
 ],[
-#align(center, [#image("kernel-driver-stack.pdf", height: 80%)])
+#align(center, [#image("kernel-driver-stack.svg", height: 80%)])
 ])
 
 ===  Stack illustrated with a GPIO expander
 
-#align(center, [#image("kernel-driver-stack-gpio-i2c.pdf", height: 90%)])
+#align(center, [#image("kernel-driver-stack-gpio-i2c.svg", height: 90%)])
 
 ===  Standardized user-space interface
 
@@ -119,7 +119,7 @@ From the bottom to the top:
 This diagram shows what's not recommended to do → for a GPIO controller, a kernel driver
 is preferred
 ],[
-#align(center, [#image("kernel-driver-stack-gpio-i2c-direct-userspace.pdf", height: 90%)])
+#align(center, [#image("kernel-driver-stack-gpio-i2c-direct-userspace.svg", height: 90%)])
 
 ])
 
@@ -591,7 +591,7 @@ A class of devices worth mentioning is GPIOs (_General Purpose Input Output_)
 
 ],[
 
-#align(center, [#image("modules-to-access-rootfs.pdf", width: 100%)])
+#align(center, [#image("modules-to-access-rootfs.svg", width: 100%)])
 
 ])
 
@@ -633,7 +633,7 @@ A class of devices worth mentioning is GPIOs (_General Purpose Input Output_)
 
 ===  Module alias: _modules.alias_
 
-#align(center, [#image("module-alias-usage.pdf", width: 100%)])
+#align(center, [#image("module-alias-usage.svg", width: 100%)])
 
 ===  Module utilities: _modinfo_
 
@@ -863,7 +863,7 @@ fat                    86016  1 vfat
 
   - `fdt_` APIs
 ],[
-  #align(center, [#image("dts-to-dtb.pdf", height: 70%)])
+  #align(center, [#image("dts-to-dtb.svg", height: 70%)])
 
 ])
 
@@ -973,7 +973,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[ 
   
-#align(center, [#image("ram.pdf", height: 80%)])
+#align(center, [#image("ram.svg", height: 80%)])
 
 ])
 
@@ -1018,7 +1018,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("dt-basic-syntax.pdf", height: 60%)])
+#align(center, [#image("dt-basic-syntax.svg", height: 60%)])
 
 ])
 
@@ -1047,7 +1047,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -1089,7 +1089,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -1119,7 +1119,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -1155,7 +1155,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -1193,7 +1193,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-  #align(center, [#image("simple-hardware.pdf", width: 100%)])
+  #align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -1230,7 +1230,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ],[
 
-#align(center, [#image("simple-hardware.pdf", width: 100%)])
+#align(center, [#image("simple-hardware.svg", width: 100%)])
 
 ])
 
@@ -1263,7 +1263,7 @@ $ dtc -I dtb -O dts foo.dtb
 
 ===  Device Tree inheritance example
 
-#align(center, [#image("dt-inheritance.pdf", width: 100%)])
+#align(center, [#image("dt-inheritance.svg", width: 100%)])
 
 ===  Inheritance and labels
 
@@ -1382,7 +1382,7 @@ board.dts
 
 ===  DT inheritance in STM32MP1 support
 
-#align(center, [#image("dt-inheritance-stm32.pdf", height: 90%)])
+#align(center, [#image("dt-inheritance-stm32.svg", height: 90%)])
 
 ===  Device Tree design principles
 
@@ -1662,7 +1662,7 @@ examples:
 
 ],[
 
-#align(center, [#image("dt-to-devices.pdf", width: 100%)])
+#align(center, [#image("dt-to-devices.svg", width: 100%)])
 
 ])
 
@@ -1882,7 +1882,7 @@ spi3: spi@4000c000 {
 
 ],[
 
-#align(center, [#image("pin-muxing-principle.pdf", width: 100%)])
+#align(center, [#image("pin-muxing-principle.svg", width: 100%)])
 
 ])
 

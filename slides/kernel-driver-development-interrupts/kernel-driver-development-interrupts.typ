@@ -187,7 +187,7 @@ be found in `/sys/kernel/debug/irq/irqs/<nr>` files when
 
 ===  Softirq execution flow
 
-#align(center, [#image("thread-halves.pdf", width: 100%)])
+#align(center, [#image("thread-halves.svg", width: 100%)])
 
 ===  Example usage of softirqs: NAPI
 

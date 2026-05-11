@@ -8,13 +8,13 @@
 
 ===  Physical and virtual memory
 
-#align(center, [#image("mmu.pdf", height: 90%)])
+#align(center, [#image("mmu.svg", height: 90%)])
 
 ===  Virtual memory organization
 
 #table(columns: (40%, 60%), stroke: none, gutter: 15pt, [
 
-#align(center, [#image("memory-organization.pdf", height: 95%)])
+#align(center, [#image("memory-organization.svg", height: 95%)])
 
 ],[
 
@@ -44,7 +44,7 @@
 
 ===  Physical/virtual memory mapping on 32-bit systems
 
-#align(center, [#image("memory-mapping-32b.pdf", height: 90%)])
+#align(center, [#image("memory-mapping-32b.svg", height: 90%)])
 
 ===  32-bit systems limitations
 
@@ -75,7 +75,7 @@
 
 ===  Physical/virtual memory mapping on 64-bit systems (4kiB-pages)
 
-#align(center, [#image("memory-mapping-64b.pdf", height: 90%)])
+#align(center, [#image("memory-mapping-64b.svg", height: 90%)])
 
 ===  User space virtual address space
 
@@ -96,7 +96,7 @@
 
 ],[
 
-#align(center, [#image("userspace-mappings.pdf", height: 80%)])
+#align(center, [#image("userspace-mappings.svg", height: 80%)])
 
 ])
 
@@ -125,7 +125,7 @@
 
 ===  Kernel memory allocators
 
-#align(center, [#image("allocators.pdf", height: 90%)])
+#align(center, [#image("allocators.svg", height: 90%)])
 
 ===  Page allocator
 
@@ -230,7 +230,7 @@ The most common ones are:
 
 ===  SLAB allocator 2/2
 
-#align(center, [#image("slab-allocator.pdf", height: 90%)])
+#align(center, [#image("slab-allocator.svg", height: 90%)])
 
 ===  Different SLAB allocators 
 

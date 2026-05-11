@@ -33,7 +33,7 @@
 
 ],[
 
-#align(center, [#image("bpf-setup.pdf", height: 90%)])
+#align(center, [#image("bpf-setup.svg", height: 90%)])
 
 ])
 
@@ -53,7 +53,7 @@
 
 ],[
 
-#align(center, [#image("bpf-capture.pdf", height: 90%)])
+#align(center, [#image("bpf-capture.svg", height: 90%)])
 
 ])
 
@@ -98,7 +98,7 @@
 
 ===  eBPF program lifecycle
 
-#align(center, [#image("bpf_lifecycle.pdf", height: 90%)])
+#align(center, [#image("bpf_lifecycle.svg", height: 90%)])
 
 ===  Kernel configuration for eBPF
 

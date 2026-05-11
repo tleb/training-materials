@@ -128,7 +128,7 @@ In Linux, a driver is always interfacing with:
 
 ],[
 
-#align(center, [#image("driver-architecture.pdf", height: 80%)])
+#align(center, [#image("driver-architecture.svg", height: 80%)])
 
 ])
 

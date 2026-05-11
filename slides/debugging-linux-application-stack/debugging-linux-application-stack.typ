@@ -88,7 +88,7 @@
 
 ],[
 
-#align(center, [#image("mmu.pdf", width: 100%)])
+#align(center, [#image("mmu.svg", width: 100%)])
 
 ])
 
@@ -131,7 +131,7 @@
 
 ],[
 
-#align(center, [#image("memory_layout.pdf", height: 90%)])
+#align(center, [#image("memory_layout.svg", height: 90%)])
 
 ])
 
@@ -139,7 +139,7 @@
 
 Multiple processes have different user memory spaces 
 #v(0.5em)
-#align(center, [#image("multiple_process.pdf", height: 80%)])
+#align(center, [#image("multiple_process.svg", height: 80%)])
 
 ===  Kernel memory map
 
@@ -161,7 +161,7 @@ Multiple processes have different user memory spaces
 
 ],[
 
-#align(center, [#image("kernel_layout.pdf", height: 80%)])
+#align(center, [#image("kernel_layout.svg", height: 80%)])
 
 ])
 
@@ -200,11 +200,11 @@ Multiple processes have different user memory spaces
 
 - Non-contiguous physical memory can be virtually contiguous
 #v(0.5em)
-#align(center, [#image("memory_mapping.pdf", height: 80%)])
+#align(center, [#image("memory_mapping.svg", height: 80%)])
 
 ===  Userspace memory types
 
-#align(center, [#image("mem_type.pdf", height: 80%)])
+#align(center, [#image("mem_type.svg", height: 80%)])
 
 ===  On-demand memory mapping (_Lazy allocation_)
 
@@ -228,7 +228,7 @@ Multiple processes have different user memory spaces
 
 ],[
 
-#align(center, [#image("lazy_mapping.pdf", height: 85%)])
+#align(center, [#image("lazy_mapping.svg", height: 85%)])
 
 ])
 
@@ -291,7 +291,7 @@ Multiple processes have different user memory spaces
   #kstruct("task_struct") can be accessed using
   #kfunc("get_current").
 #v(1em)
-#align(center, [#image("process_context.pdf", height: 24%)])
+#align(center, [#image("process_context.svg", height: 24%)])
 
 == Scheduling
 <scheduling>
@@ -397,7 +397,7 @@ Multiple processes have different user memory spaces
 - Interrupts are disabled (no nested interrupt support)!
 
 #v(1em)
-#align(center, [#image("interrupt_context.pdf", height: 24%)])
+#align(center, [#image("interrupt_context.svg", height: 24%)])
 
 ===  System Calls (1/2)
 
@@ -516,7 +516,7 @@ root          11       2 [rcu_tasks_kthread]          TS
 
 ===  Interrupts & Softirqs
 
-#align(center, [#image("softirqs.pdf", width: 100%)])
+#align(center, [#image("softirqs.svg", width: 100%)])
 
 ===  Threaded interrupts
 

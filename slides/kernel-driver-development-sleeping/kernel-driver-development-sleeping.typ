@@ -8,7 +8,7 @@
 
 ===  Sleeping
 
-#align(center, [#image("sleeping.pdf", width: 100%)])
+#align(center, [#image("sleeping.svg", width: 100%)])
 
 #align(center, [Sleeping is needed when a userspace or kernelspace thread is waiting for data.])
 
@@ -135,7 +135,7 @@ Typically done by interrupt handlers when data sleeping threads are waiting for 
 
 #table(columns: (45%, 55%), stroke: none, gutter: 15pt, [
 
-#align(center, [#image("wait-event.pdf", height: 90%)])
+#align(center, [#image("wait-event.svg", height: 90%)])
 
 ],[
 

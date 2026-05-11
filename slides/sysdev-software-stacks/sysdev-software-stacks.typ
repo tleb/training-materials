@@ -33,7 +33,7 @@
 
 ],[
 
-#align(center, [#image("dbus.pdf", width: 100%)])
+#align(center, [#image("dbus.svg", width: 100%)])
 
 ])
 
@@ -128,7 +128,7 @@ WantedBy=multi-user.target
 
 ===  Linux graphics stack overview
 
-#align(center, [#image("graphics-stack.pdf", height: 95%)])
+#align(center, [#image("graphics-stack.svg", height: 95%)])
 
 ===  Display controller support
 
@@ -203,7 +203,7 @@ WantedBy=multi-user.target
 
 ],[
 
-#align(center, [#image("display-server.pdf", width: 100%)])
+#align(center, [#image("display-server.svg", width: 100%)])
 
 ])
 
@@ -304,7 +304,7 @@ WantedBy=multi-user.target
 
 ],[
 
-#align(center, [#image("toolkit.pdf", height: 90%)])
+#align(center, [#image("toolkit.svg", height: 90%)])
 
 ])
 
@@ -444,7 +444,7 @@ Read our blog post:
 
 ===  Linux multimedia stack overview
 
-#align(center, [#image("multimedia-stack.pdf", height: 90%)])
+#align(center, [#image("multimedia-stack.svg", height: 90%)])
 
 ===  Audio stack
 
@@ -537,7 +537,7 @@ Read our blog post:
 
 ===  Linux networking stack
 
-#align(center, [#image("networking-stack.pdf", height: 95%)])
+#align(center, [#image("networking-stack.svg", height: 95%)])
 
 ===  Web accessible UI
 
