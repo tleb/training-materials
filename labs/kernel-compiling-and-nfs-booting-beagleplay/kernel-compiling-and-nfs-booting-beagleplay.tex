@@ -83,6 +83,14 @@ controller and GPU drivers.
 Make sure that this configuration has \kconfigval{CONFIG_ROOT_NFS}{y} (support
 booting on an NFS exported root directory).
 
+The default config we used has many optional features built as modules
+by default. As we will not use those during the training, we can save
+on build time and turn all \code{=m} into \code{=n} using:
+
+\begin{verbatim}
+make mod2noconfig
+\end{verbatim}
+
 \section{Kernel compiling}
 
 Compile your kernel and generate the Device Tree Binaries (DTBs)
