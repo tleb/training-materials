@@ -12,6 +12,9 @@
 #let beaglebone-audio = (
   sys.inputs.at("training", default: "") == "embedded-linux"
 )
+#let beaglebone-sdcard = (
+  sys.inputs.at("training", default: "") != "linux-kernel"
+)
 #set list(spacing: 0.5em)
 
 === Beaglebone Black / Beaglebone black wireless shopping list
@@ -42,7 +45,9 @@
           "https://www.olimex.com/Products/Breadboarding/JUMPER-WIRES/JW-110x10/",
         )]]
     ]
-    - MicroSD card
+    #if beaglebone-sdcard [
+      - MicroSD card
+    ]
     #if beaglebone-audio [
       - A standard USB audio headset
     ]
