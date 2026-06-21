@@ -152,6 +152,12 @@ Let's configure networking in U-Boot:
 Of course, make sure that this address belongs to a separate network
 segment from the one of the main company network.
 
+Any U-Boot variable can be edited using \code{editenv}, eg.:
+
+\begin{ubootinput}
+=> editenv ipaddr
+\end{ubootinput}
+
 To make these settings permanent, save the environment:
 
 \begin{ubootinput}

@@ -175,6 +175,12 @@ setenv serverip 192.168.1.1
 Of course, make sure that this address belongs to a separate network
 segment from the one of the main company network.
 
+Any U-Boot variable can be edited using \code{editenv}, eg.:
+
+\begin{ubootinput}
+=> editenv ipaddr
+\end{ubootinput}
+
 We also need to configure Ethernet over USB device:
 \begin{itemize}
   \item \code{ethprime}: controls which interface gets used first
